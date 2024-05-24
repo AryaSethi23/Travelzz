@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Travelzz</string>
+    <string name="email">Email</string>
+    <string name="don_t_have_an_account_register_here">Don\'t have an account? Register here</string>
+</resources>
