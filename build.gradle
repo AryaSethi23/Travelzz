@@ -5,8 +5,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.google.gms:google-services:4.3.10'
-        classpath 'com.android.tools.build:gradle:7.1.0' // Android Gradle Plugin version
+        classpath 'com.google.gms:google-services:4.4.1'
+        classpath 'com.android.tools.build:gradle:8.3.2' // Android Gradle Plugin version
         // Other dependencies for the build script (e.g., for Kotlin, etc.)
     }
 }
@@ -18,4 +18,17 @@ plugins {
 }
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
+//android {
+//    beforeEvaluate {
+//        generateLocalPropertiesIfNeeded()
+//    }
+//}
 
+def generateLocalPropertiesIfNeeded() {
+    def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
+    if (!localPropertiesFile.exists()) {
+        localPropertiesFile.withWriter { writer ->
+            writer.write("sdk.dir=${System.getenv("JAVA_HOME")}\n")
+        }
+    }
+}
