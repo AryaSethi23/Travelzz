@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1073273991425",
-    "project_id": "travelzz-35e91",
-    "storage_bucket": "travelzz-35e91.appspot.com"
+    "project_number": "1807197544",
+    "project_id": "travelzz-c531d",
+    "storage_bucket": "travelzz-c531d.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1073273991425:android:c8bb0d61851428a0d1eb00",
+        "mobilesdk_app_id": "1:1807197544:android:cb52fe0bbbe2a71dc8a2dd",
         "android_client_info": {
           "package_name": "com.example.travelzz"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCW2-IWssd07WJ4EVirKnojegs2UjLCa2s"
+          "current_key": "AIzaSyDi2_Rrb2Rhyivi3HYxHMj-jKGWqrZxC8M"
         }
       ],
       "services": {
